@@ -21,6 +21,7 @@ AIに計算を任せてあいまいな回答を得るよりも、既存の、例
 2.Youtube自動ダウンロードGUIソフトの作成。（無料にしたい）。音声と文字だけとか、テキストベースなものを目標にしている。
 3.OSを作る。
 4.PS2を想起させるような、ローポリゴンのインディーズゲームを作ること。
+5.自分のウェブサイトを作ること。
 
 ~補足~
 Blenderとも並行して取り組むので、あんまり更新頻度多くないかもです。
@@ -50,6 +51,7 @@ A list of my current ideas:
 2. Create a GUI-based YouTube downloader (to be offered for free). I aim for a text-based approach, focusing on extracting just the audio or text.
 3. Build an operating system.
 4. Create a low-poly indie game reminiscent of the PS2 era.
+5. To make my own website.
 
 ~Suppliment~
 I do blender as so, I might not active that much on github.UWU.
