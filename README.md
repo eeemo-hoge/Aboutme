@@ -21,4 +21,29 @@ AIに計算を任せてあいまいな回答を得るよりも、既存の、例
 2.Youtube自動ダウンロードGUIソフトの作成。（無料にしたい）。音声と文字だけとか、テキストベースなものを目標にしている。
 3.OSを作る。
 4.PS2を想起させるような、ローポリゴンのインディーズゲームを作ること。
-　
+
+
+以下英語版
+Hello.
+I am a programmer whose activities are primarily based online.
+
+My goal is to develop software that improves people's lives.
+My philosophy focuses on building fast, lightweight programs from scratch using low-level languages, rather than creating new things with scripting languages ​​like Python.
+Everything I create will be free and open-source.
+Instead of relying on AI for calculations that yield vague answers, I aim to process information and predict the future using established methods—such as basic statistics and mathematics.
+
+Here is a rough roadmap of the languages ​​I plan to learn and the progression I envision:
+1. C++: I am currently working on understanding header file management, memory management, and classes.
+2. Java: Having gained a solid grasp of C++, I am now studying Java—using the book *Yasashii Java* (Friendly Java)—to develop Android applications.
+3. Scripting languages: I haven't touched these at all yet, but I plan to follow a path starting with HTML and moving on to JavaScript.
+4. Others: I will look into C#, Ruby, and Python if time and energy permit. I am also interested in trying out COBOL and assembly language.
+
+A list of my current ideas:
+~Lifestyle~
+1. Refine an existing mood-tracker app, then rewrite it in Java to create an Android version.
+
+~Uncategorized~
+1. Create a web browser optimized for privacy and lightweight performance.
+2. Create a GUI-based YouTube downloader (to be offered for free). I aim for a text-based approach, focusing on extracting just the audio or text.
+3. Build an operating system.
+4. Create a low-poly indie game reminiscent of the PS2 era.
