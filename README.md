@@ -54,4 +54,4 @@ A list of my current ideas:
 5. To make my own website.
 
 ~ Suppliment ~
-I do blender as so, I might not active that much on github.UWU.
+I do blender as so, I might not active that much on github.
