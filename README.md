@@ -13,10 +13,10 @@ AIに計算を任せてあいまいな回答を得るよりも、既存の、例
 4.その他。C#とRubyとPythonは、時間と体力が許せばします。COBOLとかアッセンブリ言語してみたい。
 
 現段階での、アイデア一覧。
-~生活編~
+~ 生活編 ~ 
 1.既存のmood-trackerをもう少し直す。そして、javaで書き直してアンドロイドアプリに対応させる。
 
-~無カテゴライズ=
+~ 無カテゴライズ ~
 1.プライバシーと軽量化特化のウェブブラウザ作成。
 2.Youtube自動ダウンロードGUIソフトの作成。（無料にしたい）。音声と文字だけとか、テキストベースなものを目標にしている。
 3.OSを作る。
@@ -46,12 +46,12 @@ A list of my current ideas:
 ~Lifestyle~
 1. Refine an existing mood-tracker app, then rewrite it in Java to create an Android version.
 
-~Uncategorized~
+~ Uncategorized ~
 1. Create a web browser optimized for privacy and lightweight performance.
 2. Create a GUI-based YouTube downloader (to be offered for free). I aim for a text-based approach, focusing on extracting just the audio or text.
 3. Build an operating system.
 4. Create a low-poly indie game reminiscent of the PS2 era.
 5. To make my own website.
 
-~Suppliment~
+~ Suppliment ~
 I do blender as so, I might not active that much on github.UWU.
