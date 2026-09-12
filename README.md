@@ -23,7 +23,7 @@ AIに計算を任せてあいまいな回答を得るよりも、既存の、例
 4.PS2を想起させるような、ローポリゴンのインディーズゲームを作ること。
 5.自分のウェブサイトを作ること。
 
-~補足~
+~ 補足 ~
 Blenderとも並行して取り組むので、あんまり更新頻度多くないかもです。
 
 
@@ -43,7 +43,7 @@ Here is a rough roadmap of the languages ​​I plan to learn and the progressi
 4. Others: I will look into C#, Ruby, and Python if time and energy permit. I am also interested in trying out COBOL and assembly language.
 
 A list of my current ideas:
-~Lifestyle~
+~ Lifestyle ~
 1. Refine an existing mood-tracker app, then rewrite it in Java to create an Android version.
 
 ~ Uncategorized ~
