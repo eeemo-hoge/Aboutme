@@ -1,96 +1,105 @@
 ## 挨拶と私の思想
 
 こんにちは。
-私はネットでの活動がメインのプログラマです。
+ネットを中心に活動しているプログラマです。
 
-開発するソフトは生活をよりよくしてくれるソフト作ろうと思います。
-私の考えはsuckles, fast, lightなソフトウェアの作成することです。
-すべてが無料であり、オープンソースであること。つまりGNUの考えにある程度従っているし、それが好きであること。
-AIに計算を任せてあいまいな回答を得るよりも、既存の、例えば簡単な統計学、数学を使って情報を処理することが好きです。
-もしくは自分でコードを組んで、整合性を確かめた数値を信用することのほうが好きと言った方がいいかもしれないです。
-お金にめがくらんだとき、それは私ではない。
+私は、毎日の暮らしが少しでも楽になるようなソフトを作りたいと思っています。
+大事にしているのは、「シンプルで、速くて、軽い」ソフトウェアです（suckless, fast, light）。
+作るものはすべて無料で、オープンソースにするつもりです。GNUの考え方がけっこう好きで、それにある程度沿っていきたいと思っています。
 
-なんでコーディングしているのか的な問いへの回答は、もちろん、企業へのポートフォリオ的な意味もあります。
-ですが、初期平成の雰囲気が好きで、ハードウェアとソフトウェアの本来あるべき姿に(私の一意見)惹かれるので、それを実現させたい。そっち方面でできるなら携わりたいし、無理なら勝手に個人でしますの勢いです。
-私は少ないリソースの限られた機械が動いている様子を見ることが、コーディングに関しては非常に好きです。
-2GBに収まるPSP時代のゲームだったり、32MBのPS2のメモリーカードに収まるゲームだったり、フロッピーディスク（私はこの時代の人ではないが）だったり、512MBのRAMでもパソコンが動いていたこと。あれも好きです。
+計算をAIにお任せして、あいまいな答えをもらうのはあまり好きではありません。
+簡単な統計学や数学など、昔からある確かな方法で情報を処理するほうが好きです。
+というより、自分でコードを書いて、きちんと確かめた数字を信じたい、と言ったほうが近いかもしれません。
+お金に目がくらんだら、それはもう私ではないと思っています。
 
-## 学ぶ言語と、それぞれがどのような経過をたどるのかの大まかな設計図。
-1.c++について。c++のヘッダファイルの管理の理解、メモリ管理の理解、クラスの理解などを現在取り組み中。50%.
-2.Javaについて。c++は大体理解できたので、javaでのアプリ開発のために、javaの勉強に、"優しいjava"を使用し、現在javaアプリ開発について勉強中。10%.
-3.スクリプト言語について。1ミリも手を付けていないので、多分、HTML->javascriptなどの経過をたどると思う。0%.
-4.その他。C#とRubyとPythonは、時間と体力が許せばします。COBOLとかアッセンブリ言語してみたい。0%.
+「どうしてコーディングしているの？」と聞かれたら、もちろん企業へのポートフォリオという面もあります。
+でも一番の理由は、初期平成のあの空気感が好きだからです。ハードウェアとソフトウェアの「本来あるべき姿」（あくまで私の意見です）に惹かれていて、それを形にしてみたいのです。
+その方面で仕事ができたらうれしいですし、難しければ自分ひとりで楽しくやっていくつもりです。
+特に、限られたリソースで機械がけなげに動いている姿を見るのが大好きです。
+2GBに収まるPSP時代のゲーム、32MBのPS2メモリーカードに収まるゲーム、フロッピーディスク（私はその世代ではないのですが）、512MBのRAMで動いていたパソコン……そういうものにワクワクします。
+
+## 学ぶ言語と、大まかな道のり
+1. C++：ヘッダファイルの管理、メモリ管理、クラスの理解に取り組んでいるところです。（50%）
+2. Java：C++はだいたい分かってきたので、アプリ開発に向けて「やさしいJava」で勉強中です。（10%）
+3. スクリプト言語：まだ全く手をつけていません。たぶんHTML → JavaScriptの順に進むと思います。（0%）
+4. その他：C#、Ruby、Pythonは、時間と体力に余裕があればやってみたいです。COBOLやアセンブリ言語にも挑戦してみたいです。（0%）
 
 ## コーディングの旅
-簡単に言えばこんな感じだ。C++ + LPIC -> shell, perl -> Javaでのアンドロイドアプリ作成 -> python, ruby -> javascript, HTML -> C -> COBOL。また、順番は前後するかもしれない。
+ざっくり言うと、こんな流れです。
+C++ ＋ LPIC → shell, perl → Javaでアンドロイドアプリ作成 → python, ruby → javascript, HTML → C → COBOL
+順番は前後するかもしれません。
 
-## 現段階での、アイデア一覧。
-0.既存のmood-trackerをもう少し直す。そして、javaで書き直してアンドロイドアプリに対応させる。30% done.
-1.プライバシーと軽量化特化のウェブブラウザ作成。
-2.Youtube自動ダウンロードGUIソフトの作成。（無料にしたい）。音声と文字だけとか、テキストベースなものを目標にしている。
-3.ファイルマネージャーの作成。
-4.PS2を想起させるような、ローポリゴンのインディーズゲームを作ること。
-5.自分のウェブサイトを作ること。
-6.GNUライセンスに基づいたアンドロイドでのテキストエディタの作成。
-7.tailとか使って自動更新かつ、自動テキストファイル保存かつ、日本語自動翻訳機能付きかつ、全世界の現地の主要サイトたちをスクレイピングするshellスクリプト。10%。
-8.暗くて青い空とか、フォグが個人的に好きなのでそれyを予測するソフトウェアの作成か、サイトがあればそれをリアルタイムスクレイピングするソフトウェアの作成かつアンドロイドアプリとして実装。
-9.広告なし、完全無料の、リミットレス言語交換アプリ。サイト、ソフトウェア。
-10.広告なし、完全無料の、クソレスなしのSNS。CLIからのAPIアクセス無制限可能。
-11.広告なし、完全無料の、写真を投稿するだけのサイト。
-12.広告なし、完全無料の、リアルタイム読書共有ソフト、アプリ。(ページと行数まで)
-13.意識のアップロード
-
+## 今のところのアイデア一覧
+0. 既存のmood-trackerをもう少し直して、Javaで書き直し、アンドロイドアプリにする。（30%完了）
+1. プライバシーと軽さに特化したウェブブラウザを作る。
+2. YouTube自動ダウンロードのGUIソフトを作る。（無料にしたい）音声と文字だけ、といったテキスト中心のものが目標。
+3. ファイルマネージャーを作る。
+4. PS2を思い出すような、ローポリゴンのインディーズゲームを作る。
+5. 自分のウェブサイトを作る。
+6. GNUライセンスのアンドロイド用テキストエディタを作る。
+7. tailなどを使って、自動更新・テキストファイルの自動保存・日本語への自動翻訳ができて、世界中の現地の主要サイトをスクレイピングするshellスクリプトを作る。（10%）
+8. 暗くて青い空やフォグ（霧）が好きなので、それを予測するソフトか、サイトがあればリアルタイムでスクレイピングするソフトを作り、アンドロイドアプリにする。
+9. 広告なし・完全無料・制限なしの言語交換アプリ（サイトやソフトウェア）。
+10. 広告なし・完全無料の、クソレスのないSNS。CLIからのAPIアクセスも無制限。
+11. 広告なし・完全無料の、写真を投稿するだけのサイト。
+12. 広告なし・完全無料の、リアルタイム読書共有ソフト／アプリ。（ページ数と行数まで共有）
+13. 意識のアップロード
 
 ## Todoリスト
-1.README.mdの書き方。
-
+1. README.mdの書き方を学ぶ。
 
 ## 学びたいこと
-1.Shell, Perl。
-2.セキュリティの理解。
-3.ネットワークの理解
-4.バイナリファイルを読めるようになること。
-5.スクリプト言語
+1. ShellとPerl
+2. セキュリティの理解
+3. ネットワークの理解
+4. バイナリファイルが読めるようになること
+5. スクリプト言語
+
+
 
 ## Introduction and My Philosophy
 
-Hello.
-I am a programmer whose activities are primarily based online.
+Hello!
+I'm a programmer who mostly spends my time online.
 
-My goal is to develop software that improves people's lives.
-My philosophy centers on creating software that is simple, fast, and lightweight.
-Everything I create is free and open-source; in other words, I align with—and appreciate—the GNU philosophy.
-Rather than relying on AI to process calculations and provide vague answers, I prefer processing information using established methods like basic statistics and mathematics.
-Or perhaps it is more accurate to say I prefer writing the code myself and trusting the figures once I have verified their consistency.
+I'd like to make software that makes everyday life a little better.
+My philosophy is simple: software should be simple, fast, and lightweight.
+Everything I make will be free and open source. I really like the GNU philosophy and try to follow it, at least to a degree.
 
-As for why I code—while it certainly serves as a portfolio for potential employers, that isn't the whole story.
-I love the atmosphere of the early Heisei era and am drawn to what I consider the "ideal form" of hardware and software; I want to bring that vision to life. If I can work on this professionally, I’d love to; if not, I’m determined to pursue it independently.
-When it comes to coding, I particularly enjoy watching machines with limited resources in action.
-I love things like games from the PSP era that fit within 2GB, games that fit on a 32MB PS2 memory card, floppy disks (even though I’m not from that generation), and the fact that PCs used to run on just 512MB of RAM.
+I'm not a big fan of leaving calculations to AI and getting vague answers back.
+I'd rather use well-established methods like basic statistics and math to process information.
+Or maybe it's more accurate to say that I prefer writing the code myself and trusting numbers I've checked for consistency.
 
-## Languages ​​to Learn and a Rough Roadmap
-1. C++: I am currently working on understanding header file management, memory management, and classes. (50% complete)
-2. Java: Having gained a general understanding of C++, I am now studying Java for application development using the book *Yasashii Java* (Gentle Java). (10% complete)
-3. Scripting languages: I haven't touched these at all yet, but I plan to follow a path starting with HTML, then moving to JavaScript, and so on. (0% complete)
-4. Others: I’ll look into C#, Ruby, and Python if time and energy permit. I’m also interested in trying out COBOL and assembly language. 0%.
+As for why I code: sure, it's partly for my portfolio. But that's not the whole story.
+I love the atmosphere of the early Heisei era, and I'm drawn to what I see as the "ideal form" of hardware and software. I want to bring that to life. If I can work in that field, I'd love to. If not, I'll happily keep going on my own.
+Most of all, I enjoy watching machines with limited resources doing their best.
+I love things like PSP-era games that fit in 2GB, games that fit on a 32MB PS2 memory card, floppy disks (even though I'm not from that generation), and the fact that PCs used to run on just 512MB of RAM.
+
+## Languages to Learn and a Rough Roadmap
+1. C++: I'm working on header file management, memory management, and classes. (50% complete)
+2. Java: I understand C++ fairly well now, so I'm studying Java for app development with the book *Yasashii Java* (Gentle Java). (10% complete)
+3. Scripting languages: I haven't touched these yet, but I plan to start with HTML and move on to JavaScript. (0% complete)
+4. Others: I'd like to try C#, Ruby, and Python if time and energy allow. I'm also curious about COBOL and assembly language. (0% complete)
 
 ## My Coding Journey
-To put it simply, the path looks something like this: C++ & LPIC -> Shell & Perl -> Android app development in Java -> Python & Ruby -> JavaScript & HTML -> C -> COBOL. The order might vary a bit, though.
+Roughly, the path looks like this:
+C++ & LPIC -> Shell & Perl -> Android apps in Java -> Python & Ruby -> JavaScript & HTML -> C -> COBOL
+The order might change along the way.
 
 ## List of Current Ideas
-0. Tweak an existing mood tracker, then rewrite it in Java to make it an Android app. 30% done.
-1. Create a web browser focused on privacy and lightweight performance.
-2. Create GUI software for automatically downloading YouTube videos (aiming for it to be free). The goal is something text-based or focused solely on audio and text.
-3. Create a file manager.
-4. Create a low-poly indie game reminiscent of the PS2 era.
-5. Build my own website.
-6. Create an Android text editor under the GNU license.
-7. A shell script that uses tools like `tail` to scrape major local websites worldwide, featuring auto-updating, automatic text file saving, and automatic Japanese translation. 10%.
-8. I personally love dark blue skies and fog; I want to create software that predicts these conditions—or scrapes a site for them in real-time—and implement it as an Android app.
+0. Polish my existing mood tracker, then rewrite it in Java as an Android app. (30% done)
+1. A web browser focused on privacy and being lightweight.
+2. GUI software for automatically downloading YouTube videos (I'd like it to be free). I'm aiming for something text-based, or audio and text only.
+3. A file manager.
+4. A low-poly indie game that feels like the PS2 era.
+5. My own website.
+6. An Android text editor under the GNU license.
+7. A shell script that uses tools like `tail` to scrape major local websites around the world, with auto-updating, automatic text file saving, and automatic Japanese translation. (10%)
+8. I love dark blue skies and fog, so I'd like to make software that predicts them, or scrapes a site for them in real time, as an Android app.
 
 ## Things I Want to Learn
-1. Shell scripting, Perl.
-2. Understanding security.
-3. Understanding networking.
-4. Learning to read binary files.
-5. Scripting languages.
+1. Shell scripting and Perl
+2. Understanding security
+3. Understanding networking
+4. Learning to read binary files
+5. Scripting languages
